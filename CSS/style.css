@@ -190,6 +190,8 @@ html {
     color:#69bdbf;
     font-size: 2em;
     letter-spacing:1.2px;
+    padding-top:60px;
+   
 
   }
   p{
@@ -200,10 +202,7 @@ html {
   }
 
   .profile-picture {
-  width: 60%;
-  
-  
-    
+  width: 60%;   
   }
 
   .skills-icons {
@@ -222,7 +221,7 @@ html {
   /* My projects*/
 
   .projects {
-    padding:30px;
+    padding:50px;
   }
 
 
@@ -246,27 +245,24 @@ html {
 
   }
 
-  .project-container:hover {
-    background-color: var(--color-surface-200);
-    
-  }
+  
 
 
   .cards-container {
     /* background: var(--color-surface-200); */   
-
-    
     border-radius: 40px;
-   
   
+  }
+
+  .project-container {
+    margin-top:40px;
   }
 
   
 
   .card {
   width: 100%;
-    background-color: var(--color-surface-400);
-   
+  
   
   }
 
@@ -276,7 +272,14 @@ html {
   }
 
   .heading-card{
+    margin-top:10px;
     color: var(--color-primary-100);
+    letter-spacing: 2px;
+    font-size: 2em;
+  }
+
+  .text-card {
+    line-height: 1.5px;
   }
 
 
@@ -304,6 +307,8 @@ html {
 
 
   /* Media queries*/
+
+
 
   @media screen and (min-width: 768px) {
     header {
@@ -339,7 +344,7 @@ html {
       }
     
       .nav-links {
-        font-size: 0.8em;
+        font-size: 1em;
         
         
       }
@@ -358,6 +363,42 @@ html {
       .logo:hover {
         color:var(--color-surface-600);
       }
+
+      /* about info*/
+
+      .about-info {
+        flex-direction: row;
+        gap:20px;
+      }
+
+      /*Portfolio*/
+
+      .projects {
+        padding:80px;
+      }
+
+      .project-container {
+        display:flex;
+        flex-direction: row;
+        padding:40px;
+      }
+
+      .project-container:hover {
+        background-color: var(--color-surface-200);
+        
+        
+      }
+
+      .card-image {
+        width: 40%;
+      }
+
+      .cards-container {
+        display:flex;
+        flex-direction: column;
+        gap:40px;
+      }
+
     }
 
 
