@@ -203,6 +203,8 @@ html {
 
   .profile-picture {
   width: 60%;   
+  border-radius:20px;
+
   }
 
   .skills-icons {
@@ -237,10 +239,7 @@ html {
   }
 
   .project-container {
-   
     max-width: 100%;
-    gap:20px;
-   
     border-radius:15px;
 
   }
@@ -253,6 +252,8 @@ html {
     border-radius: 40px;
   
   }
+
+
 
   .project-container {
     margin-top:40px;
@@ -280,6 +281,19 @@ html {
 
   .text-card {
     line-height: 1.5px;
+  }
+
+  .fa-link, 
+  .fa-github {
+    color:white;
+    font-size: 1.8em;
+    color:var(--color-primary-500);
+  }
+
+  .icons-project {
+    display:flex;
+   padding-top:20px;
+   gap:10px;
   }
 
 
@@ -364,11 +378,30 @@ html {
         color:var(--color-surface-600);
       }
 
+
+      /* hero section*/
+
+      .hero-text {
+        padding:45px 95px;
+        font-size:2em;
+
+    }
+
       /* about info*/
 
       .about-info {
         flex-direction: row;
         gap:20px;
+        padding:20px;
+      }
+
+      .profile-picture {
+        width: 20%;
+        border-radius:20px;
+      }
+
+      .about-info {
+        gap:60px;
       }
 
       /*Portfolio*/
@@ -381,6 +414,7 @@ html {
         display:flex;
         flex-direction: row;
         padding:40px;
+        gap:20px;
       }
 
       .project-container:hover {
@@ -397,6 +431,14 @@ html {
         display:flex;
         flex-direction: column;
         gap:40px;
+      }
+
+      .icons-project{
+        display:flex;
+       justify-content: flex-end;
+       gap:10px;
+       
+
       }
 
     }
