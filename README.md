@@ -1,4 +1,4 @@
-# Your project title
+# Portfolio
 
 ![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
 
@@ -6,13 +6,8 @@ A simple overview of the use/purpose of the project.
 
 ## Description
 
-Add a more detailed description of what your project entails and set out to do.
+To wrap up the first year at Noroff, we were given the assignment to develop a portfolio website with the purpose of showcasing the projects we have undertaken throughout the year.
 
-You can add some bullet points if you'd like to:
-
-- List item 1
-- List item 2
-- List item 3
 
 ## Built With
 
