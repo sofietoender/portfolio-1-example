@@ -1,9 +1,5 @@
 # Portfolio
 
-![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
-
-A simple overview of the use/purpose of the project.
-
 ## Description
 
 To wrap up the first year at Noroff, we were given the assignment to develop a portfolio website with the purpose of showcasing the projects we have undertaken throughout the year.
