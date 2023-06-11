@@ -9,7 +9,7 @@ A simple overview of the use/purpose of the project.
 To wrap up the first year at Noroff, we were given the assignment to develop a portfolio website with the purpose of showcasing the projects we have undertaken throughout the year.
 
 ### Deployed website
- Link to my portfolio: (https://nimble-bubblegum-228f4a.netlify.app
+ [Link to my portfolio: (https://nimble-bubblegum-228f4a.netlify.app)]
 
 
 ## Built With
